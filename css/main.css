@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    
+}
+
+.mark {
+    background-color: gray;
+}
+
+.board td {
+    width: 30px;
+    border: solid;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+table {
+    border: solid black 1px;
+    margin: 0 auto;
+}
+
+.board td:hover {
+    background-color: lightsalmon;
+}
+

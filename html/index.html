@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/main.css" />
+        <title>Document</title>
+    </head>
+
+    <body onload="onInit()">
+        <h1>Touch The num</h1>
+        <div class="level">
+            <input type="radio" value="16" name="level" onclick="onInit(16)" />
+            <label for="Easy">Easy</label>
+
+            <input type="radio" value="25" name="level" onclick="onInit(25)" />
+            <label for=" Normal">Normal</label>
+
+            <input type="radio" value="36" name="level" onclick="onInit(36)" />
+            <label for=" Hard">Hard</label>
+        </div>
+
+        <h2>00:00</h2>
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+
+        <script src="../js/main.js"></script>
+        <script src="../js/util.js"></script>
+    </body>
+</html>
